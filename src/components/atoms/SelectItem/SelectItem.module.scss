@@ -1,0 +1,33 @@
+.item {
+  color: #010114;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  cursor: pointer;
+
+  @media (max-width: 950px) {
+    padding: 12px 24px;
+    background-color: #f2f2f3;
+  }
+
+  &_un_active {
+    color: gray;
+    cursor: default;
+
+    svg {
+      stroke: grey !important;
+      cursor: default;
+    }
+  }
+
+  svg {
+    transform: rotate(-90deg);
+    stroke: #010114;
+    width: 24px;
+    height: 12px;
+
+    @media (max-width: 950px) {
+      transform: rotate(0);
+    }
+  }
+}

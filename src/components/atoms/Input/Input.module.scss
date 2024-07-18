@@ -1,0 +1,20 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__icon {
+    position: absolute;
+    left: 10px;
+  }
+}
+
+.input {
+  padding: 16px;
+  border: 1px solid #ced4da;
+
+  &__is_icon {
+    padding-left: 40px;
+  }
+}
